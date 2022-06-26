@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="">
+ <meta name="author" content="do.sibsutis.ru">
+
+ <title>Контрольная работа. Защита информации</title>
+
+ <link rel="icon" type="image/png" href="../lib/css/favicon.png">
+ <!-- Bootstrap Core CSS -->
+ <link href="../lib/css/bootstrap.css" rel="stylesheet">
+
+ <!-- Custom CSS -->
+ <link href="../lib/css/scrolling-nav.css" rel="stylesheet">
+
+ <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+ <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+ <!--[if lt IE 9]>
+ <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+ <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+ <![endif]-->
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+ <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+ <div class="container">
+ <!-- Brand and toggle get grouped for better mobile display -->
+ <div class="navbar-header">
+ <li class="hidden"> <a class="page-scroll" href="#page-top"></a> </li>
+
+ <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ </button>
+
+ <a class="navbar-brand " href="../index.htm">
+ <text class = "hidden-xs">Защита информации</text>
+ <text class = "visible-xs">ЗИ</text>
+ </a>
+ </div>
+
+ <!-- Collect the nav links, forms, and glyphicon glyphicon-list-alt content for toggling -->
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+ <!-- <ul class="nav navbar-nav">
+ <li><a href="#"></a></li>
+ </ul> -->
+
+ <ul class="nav navbar-nav navbar-right">
+ <li class="dropdown">
+ <button type="button" class="navbar-toggle dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ </button>
+ <a class = "dropdown-toggle visible-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Материалы</a>
+  
+ <ul class="dropdown-menu">
+  
+ <li><a href="../index.htm">Аннотация курса</a></li>
+  
+ <li role="separator" class="divider"></li>
+  
+ <li><a href="lec_index.htm">Теория</a></li>
+  
+ <li><a href="c_work.htm">Контрольная работа</a></li>
+ 
+ <li><a href="labs.htm">Лабораторные работы</a></li>
+ 
+ <li role="separator" class="divider"></li>
+     
+   
+  <li><a href="lit.htm">Литература</a></li>
+  
+
+  <!--li><a href="q.htm">Вопросы для самопроверки</a></li-->			
+   </ul>
+ </li>
+ </ul>
+ </div><!-- /.navbar-collapse -->
+ </div><!-- /.container-fluid -->
+</nav>
+
+
+ <div id="intro" class="section content-section ">
+ 
+<div class="container">
+ <div class="row">
+ <div class="col-lg-12">
+
+ 
+ <div class="page-header">
+  <h3>Контрольная работа</h3>
+ </div>
+
+
+<h2>Методические указания и задание на выполнение контрольной работы </h2>
+
+
+<br>
+
+<p>Требуется выполнить контрольную работу, соответствующую  шестой главе лекционного курса. Прежде чем приступать к выполнению контрольной работы, необходимо изучить соответствующую главу и получить оценку «зачтено» по всем лабораторным работам. Задание на контрольную работу представляет собой одну задачу с различными параметрами, заданными по вариантам. 
+<br>
+ 
+
+<div class="row">
+ <div class="col-lg-9">
+<div class="alert alert-warning"><h4><br></h4>Вариант задания на контрольную работу выбирается в соответствии последней цифрой пароля.</div></div></div>
+<h3>Требования к оформлению отчета</h3>
+<p>Для проверки контрольной работы необходимо представить:
+<p><ol>
+<li>Файл с текстом программы (программ);
+<li>Файл с результатами.
+<li>Файл (отчет) с текстовым описанием работы программы, который должен содержать описание алгоритма работы программы по шагам с указанием выбранных значений параметров.
+</ol>
+
+<p>Если программа написана в соответствии с заданием, в ней нет ошибок, и получен правильный результат ее работы,  включая полный и содержательный отчет, то обучающийся получает оценку «отлично» по курсовой работе. </p>
+<br>
+
+<h3>Тема: Доказательства с нулевым знанием</h3>
+<p><b>Задание:</b>
+<p>Выполнить компьютерную реализацию протокола «Задачи о нахождении гамильтонова цикла в графе», используя пример 6.2 (стр. 124 лекций). Номер варианта Z равен последней цифре номера пароля.
+<p>Параметры, выбираемые по варианту Z:
+<p>1) Случайную нумерацию вершин, используемую в алгоритме (изначально в примере она равна 7 4 5 3 1 2 8 6), необходимо изменить по формуле ((a+Z)mod 9), где a – это цифра исходной последовательности случайных номеров вершин.
+<p>2) Необходимые в алгоритме параметры схемы RSA вычислить, используя значения P и Q по вариантам:
+<p class=punkt>1. Для Z=0: P=11 Q=53;
+<p class=punkt>2. Для Z=1: P=13 Q=47;
+<p class=punkt>3. Для Z=2: P=17 Q=43;
+<p class=punkt>4. Для Z=3: P=19 Q=41;
+<p class=punkt>5. Для Z=4: P=23 Q=37;
+<p class=punkt>6. Для Z=5: P=31 Q=11;
+<p class=punkt>7. Для Z=6: P=43 Q=13;
+<p class=punkt>8. Для Z=7: P=53 Q=17;
+<p class=punkt>9. Для Z=8: P=11 Q=23;
+<p class=punkt>0. Для Z=9: P=13 Q=37;
+
+<p>Программу необходимо реализовать с помощью любой среды визуального программирования под Windows. Обязательным требованием также является вывод всех промежуточных результатов, таких как матрица смежности, гамильтонов цикл, изоморфный граф, закодированная матрица, зашифрованная матрица, посылаемые вопросы и ответы Алисы и Боба.
+
+        <br>
+          
+<br>
+
+ 
+
+
+<br>		
+
+ </div>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <!--Меню навигации-->
+ <div aria-label="..." class = "nav-menu">
+ <ul class="pager background-transition-slow">
+ <li title="Наверх" style = "margin-right:15px; "><a class = "glyphicon glyphicon-menu-up page-scroll" href="#page-top"></a></li>
+ </ul>
+ </div>
+
+ </div>
+ <!-- jQuery -->
+ <script src="../lib/js/jquery.js"></script>
+
+ <!-- Bootstrap Core JavaScript -->
+ <script src="../lib/js/bootstrap.min.js"></script>
+
+ <!-- Scrolling Nav JavaScript -->
+ <script src="../lib/js/jquery.easing.min.js"></script>
+ <script src="../lib/js/scrolling-nav.js"></script>
+
+</body>
+
+</html>

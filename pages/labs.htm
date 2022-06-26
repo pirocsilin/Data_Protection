@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="">
+ <meta name="author" content="do.sibsutis.ru">
+
+ <title>Лабораторные работы. Защита информации</title>
+
+ <link rel="icon" type="image/png" href="../lib/css/favicon.png">
+ <!-- Bootstrap Core CSS -->
+ <link href="../lib/css/bootstrap.css" rel="stylesheet">
+
+ <!-- Custom CSS -->
+ <link href="../lib/css/scrolling-nav.css" rel="stylesheet">
+
+ <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+ <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+ <!--[if lt IE 9]>
+ <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+ <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+ <![endif]-->
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+ <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+ <div class="container">
+ <!-- Brand and toggle get grouped for better mobile display -->
+ <div class="navbar-header">
+ <li class="hidden"> 
+<a class="page-scroll" href="#page-top"></a> </li>
+
+ <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ </button>
+
+ <a class="navbar-brand " href="../index.htm">
+ <text class = "hidden-xs">Защита информации</text>
+ <text class = "visible-xs">ЗИ</text>
+ </a>
+ </div>
+
+ <!-- Collect the nav links, forms, and glyphicon glyphicon-list-alt content for toggling -->
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+ <!-- <ul class="nav navbar-nav">
+ <li><a href="#"></a></li>
+ </ul> -->
+
+ <ul class="nav navbar-nav navbar-right">
+ <li class="dropdown">
+ <button type="button" class="navbar-toggle dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ </button>
+ <a class = "dropdown-toggle visible-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Материалы</a>
+  
+ <ul class="dropdown-menu">
+
+   <li><a href="../index.htm">Аннотация курса</a></li>
+  
+ <li role="separator" class="divider"></li>
+   
+<li><a href="lec_index.htm">Теория</a></li>
+   
+ <li><a href="c_work.htm">Контрольная работа</a></li>
+ 
+<li><a href="labs.htm">Лабораторные работы</a></li>
+ 
+ <li role="separator" class="divider"></li>
+ 
+  <li><a href="lit.htm">Литература</a></li>
+      <!--li><a href="q.htm">Вопросы для самопроверки</a></li-->			
+   </ul>
+ </li>
+ </ul>
+ </div><!-- /.navbar-collapse -->
+ </div><!-- /.container-fluid -->
+</nav>
+
+
+ <div id="intro" class="section content-section ">
+ <div class="container">
+ <div class="row">
+ <div class="col-lg-12">
+
+  <div class="page-header">
+ 
+ <h3>Лабораторные работы</h3>
+ </div>
+
+
+<h2>Рекомендации к выполнению лабораторных работ </h2><br>
+
+
+<p align="justify">
+<table width="100%"><tr><td>
+
+ <P><a href="#1" class=punkt><font face="Arial">ЛАБОРАТОРНАЯ РАБОТА 1. Шифры с открытым ключом</font></a><br>
+         </P>
+     
+<p><a href="#2" class=punkt><font face="Arial">ЛАБОРАТОРНАЯ РАБОТА 2. Шифры с секретным ключом</font></a>
+<br>
+</p> 
+<p><a href="#3" class=punkt><font face="Arial">ЛАБОРАТОРНАЯ РАБОТА 3. Цифровая подпись</font></a>
+<br>
+</p> 
+    </p></td></tr></table>
+
+<h3>ЛАБОРАТОРНЫЕ РАБОТЫ</h3>
+<p><b>по дисциплине “Основы криптографии”</b></p>
+
+<p>Всего требуется выполнить три лабораторных работы, соответствующих трем основным
+главам лекционного курса. Прежде чем приступать к выполнению очередной лабораторной
+работы, необходимо изучить соответствующую главу и выполнить хотя бы по одному
+варианту прилагаемых к ней задач. Задание на лабораторные работы общее для всех
+<i>(вариантов нет)</i>. Каждая последующая лабораторная работа обычно включает
+в себя наработки из предыдущих работ.</p>
+
+<br>
+
+<h3>Требования к оформлению отчета</h3>
+
+<p>Для проверки лабораторной работы необходимо представить:</p>
+
+<p>1.&nbsp; Файл с текстом программы (программ);</p>
+
+<p>2.&nbsp; Файл с результатами.</p>
+
+<p>Если программа написана в соответствии с заданием, в ней нет ошибок, и получен
+правильный результат ее работы, то обучающийся получает зачет по данной
+лабораторной работе. В противном случае работа отправляется на доработку.</p>
+<p>&nbsp;</p>
+<p><i>В каждой лабораторной работе есть рекомендации к
+выполнению. Приведенная в них последовательность действий при написании
+программы, реализующей поставленную задачу, не является единственной и
+обязательной. Допускается выбор любого языка программирования, позволяющего
+получать 32-битные исполняемые файлы. Реализация всех алгоритмов выполняется с
+использованием встроенных типов данных (без применения арифметики длинных
+чисел). Важно, чтобы целочисленный тип со знаком имел размер 32 бита.</i></p>
+<br>
+
+<a name=1 class="anchor"></a><p><b><u>Лабораторная
+работа №1</u></b></p>
+
+<p><b>Тема:</b> Шифры с открытым ключом (Глава 2)</p>
+
+<p><b>Задание:</b></p>
+
+<p>1.Написать и отладить набор подпрограмм (функций), реализующих алгоритмы
+возведения в степень по модулю, вычисление наибольшего общего делителя,
+вычисление инверсии по модулю.</span></p>
+
+<p>2. Используя написанные подпрограммы, реализовать систему Диффи-Хеллмана, шифры
+Шамира, Эль-Гамаля и RSA, в частности:</span></p>
+
+<p class=punkt>2.1. Для системы Диффи-Хеллмана с параметрами </span><i><span lang=EN-US
+style='font-size:12.0pt'>p</span></i><span style='font-size:12.0pt'>&nbsp;=&nbsp;30803,
+</span><i><span lang=EN-US style='font-size:12.0pt'>g</span></i><span
+style='font-size:12.0pt'>&nbsp;=&nbsp;2, </span><i><span lang=EN-US
+style='font-size:12.0pt'>X<sub>A</sub></span></i><span style='font-size:12.0pt'>&nbsp;=&nbsp;1000,
+</span><i><span lang=EN-US style='font-size:12.0pt'>X<sub>B</sub></span></i>&nbsp;=&nbsp;2000 вычислить открытые ключи и общий
+секретный ключ.</span></p>
+
+<p class=punkt>2.2. Для шифра Шамира с параметрами </span><i><span lang=EN-US style='font-size:
+12.0pt'>p</span></i><span style='font-size:12.0pt'>&nbsp;=&nbsp;30803, </span><i><span
+lang=EN-US style='font-size:12.0pt'>g</span></i><span style='font-size:12.0pt'>&nbsp;=&nbsp;2,
+</span><i><span lang=EN-US style='font-size:12.0pt'>c<sub>A</sub></span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>501,
+</span><i><span lang=EN-US style='font-size:12.0pt'>c<sub>B</sub></span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span>601
+и сообщения </span><i><span lang=EN-US style='font-size:12.0pt'>m</span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span>11111
+вычислить </span><i><span lang=EN-US style='font-size:12.0pt'>d<sub>A</sub></span></i><span
+style='font-size:12.0pt'>, </span><i>d<sub>B</sub></span></i><span
+style='font-size:12.0pt'>, </span><i>x</span></i><sub>1</span></sub><span style='font-size:12.0pt'>, </span><i>x</span></i><sub>2</span></sub><span style='font-size:12.0pt'>, </span><i>x</span></i><sub>3</span></sub>, </span><i>x</span></i><sub>4</span></sub>.</span></p>
+
+<p class=punkt>2.3. Для шифра Эль-Гамаля с параметрами </span><i><span lang=EN-US style='font-size:
+12.0pt'>p</span></i><span style='font-size:12.0pt'>&nbsp;=&nbsp;30803, </span><i><span
+lang=EN-US style='font-size:12.0pt'>g</span></i><span style='font-size:12.0pt'>&nbsp;=&nbsp;2,
+</span><i><span lang=EN-US style='font-size:12.0pt'>c</span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>500,
+</span><i><span lang=EN-US style='font-size:12.0pt'>k</span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span>600
+и сообщения </span><i><span lang=EN-US style='font-size:12.0pt'>m</span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span>11111
+вычислить зашифрованное сообщение.</span></p>
+
+<p class=punkt>2.4. Для шифра </span><span lang=EN-US style='font-size:12.0pt'>RSA</span><span
+lang=EN-US style='font-size:12.0pt'> </span>с
+параметрами пользователя </span><i><span lang=EN-US style='font-size:12.0pt'>P</span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>131,
+</span><i><span lang=EN-US style='font-size:12.0pt'>Q</span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>227,
+</span><i><span lang=EN-US style='font-size:12.0pt'>d</span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span>3
+и сообщения </span><i><span lang=EN-US style='font-size:12.0pt'>m</span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span>11111
+вычислить зашифрованное сообщение.</span></p>
+<br>
+
+<a name=2 class="anchor"></a>
+<p><b><u>Лабораторная работа №2</u></b></p>
+
+<p><b>Тема:</span></b>  Шифры с секретным ключом (Глава 4)</p>
+
+<p><b>Задание:</b></p>
+
+<p>Выполнить программную реализацию шифра по ГОСТ 28147-89.</p>
+
+<p>Написать программу, которая, используя полученную реализацию шифра, зашифровывает
+сообщение в режимах </span><span lang=EN-US style='font-size:12.0pt'>ECB</span><span
+style='font-size:12.0pt'>, </span><span lang=EN-US style='font-size:12.0pt'>CBC</span><span
+style='font-size:12.0pt'>, </span><span lang=EN-US style='font-size:12.0pt'>OFB</span><span
+lang=EN-US style='font-size:12.0pt'> </span><span style='font-size:12.0pt'>и </span><span
+lang=EN-US style='font-size:12.0pt'>CTR</span>
+(сообщение, режим и ключ задаются при запуске программы).</span></p>
+
+<p>Написать
+программу, которая расшифровывает ранее зашифрованное сообщение.</span></p>
+
+
+<p><b>Рекомендации к выполнению: </b></p>
+
+<p>Зашифрованное
+сообщение выводить в бинарный файл. Исходный файл так же имеет смысл
+рассматривать как бинарный.</span></p>
+<br>
+
+<a name=3 class="anchor"></a>
+<p><b><u>Лабораторная работа №3</u></b></p>
+
+<p><b>Тема:</span></b>  Цифровая подпись (Глава 5)</p>
+
+<p><b>Задание:</b></p>
+
+<p>Разработать программы для генерации и проверки подписей по ГОСТ Р34.10-94. Рекомендуемые
+значения общих открытых параметров<i> </i></span><i><span lang=EN-US
+style='font-size:12.0pt'>q</span></i><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span
+style='font-size:12.0pt'>=</span><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span
+style='font-size:12.0pt'>787, </span><i><span lang=EN-US style='font-size:12.0pt'>p</span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>31481,
+</span><i><span lang=EN-US style='font-size:12.0pt'>a</span></i><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt'>=</span><span
+lang=EN-US style='font-size:12.0pt'>&nbsp;</span>1928.
+Остальные параметры пользователей выбрать самостоятельно. Хеш-функцию
+реализовать на основе блокового шифра по ГОСТ 28147-89. </span></p>
+
+<p><b>Рекомендации
+к выполнению:</span></b></p>
+
+
+<p>Сообщение брать из файла. Подпись писать в файл с таким же именем, но другим расширением
+(например, если сообщение в файле </span><span lang=EN-US style='font-size:
+12.0pt;font-family:"Courier New"'>message</span><span style='font-size:12.0pt;
+font-family:"Courier New"'>.</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Courier New"'>doc</span>, то
+подпись помещается в файл </span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Courier New"'>message</span><span style='font-size:12.0pt;
+font-family:"Courier New"'>.</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Courier New"'>doc</span><span style='font-size:12.0pt;font-family:
+"Courier New"'>.</span><span lang=EN-US style='font-size:12.0pt;font-family:
+"Courier New"'>sign</span>). Все используемые
+файлы рассматривать как бинарные (т.е. как потоки произвольных байт).</span></p>
+ 
+<br><br>
+
+
+
+<br>	
+	
+
+ </div>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <!--Меню навигации-->
+ <div aria-label="..." class = "nav-menu">
+ <ul class="pager background-transition-slow">
+ <li title="Наверх" style = "margin-right:15px; "><a class = "glyphicon glyphicon-menu-up page-scroll" href="#page-top"></a></li>
+ </ul>
+ </div>
+
+ </div>
+ <!-- jQuery -->
+ <script src="../lib/js/jquery.js"></script>
+
+ <!-- Bootstrap Core JavaScript -->
+ <script src="../lib/js/bootstrap.min.js"></script>
+
+ <!-- Scrolling Nav JavaScript -->
+ <script src="../lib/js/jquery.easing.min.js"></script>
+ <script src="../lib/js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
+
+
